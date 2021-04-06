@@ -1,0 +1,2 @@
+drop table trip_details;
+create table trip_details (trip_no int, bus_id int, from_city_id int, to_city_id int, driver_id int, trip_date varchar(64), route varchar(64), bus_name varchar(64), bus_number varchar(64), bus_timings varchar(64), PRIMARY KEY (trip_no));

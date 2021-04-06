@@ -1,0 +1,23 @@
+drop table bus_details;
+create table bus_details (bus_id int, bus_name varchar(64), from_to_id int, to_from_id int, route varchar(64), current_city int, bus_number varchar(64), bus_timings varchar(64), PRIMARY KEY (bus_id));
+
+insert into bus_details values (17896546, 'Orange tours and travels', 1, 4, '1-4-1', 1, 'TS 10 CZ 1234', '19:00 to 7:00');
+insert into bus_details values (73048209, 'Orange tours and travels', 1, 3, '1-2-3-2-1', 1, 'TS 08 VP 2703', '18:00 to 8:00');
+insert into bus_details values (98746325, 'Orange tours and travels', 14, 7, '14-15-7-15-14', 14, 'MH 04 WE 9855', '22:00 to 7:00');
+insert into bus_details values (35478962, 'Orange tours and travels', 5, 14, '5-7-15-14-15-7-5', 5, 'KA 01 MK 8999', '18:00 to 9:00');
+insert into bus_details values (89629966, 'Orange tours and travels', 8, 1, '8-1-8', 8, 'TN 02 AV 2727', '20:00 to 6:00');
+insert into bus_details values (79542348, 'Orange tours and travels', 8, 11, '8-11-8', 8, 'TN 12 KJ 9090', '19:00 to 7:00');
+insert into bus_details values (25478552, 'Orange tours and travels', 6, 12, '6-12-6', 6, 'KL 09 LB 8833', '20:00 to 8:00');
+insert into bus_details values (44712565, 'Orange tours and travels', 12, 8, '12-8-12', 12, 'KL 09 OP 9934', '21:00 to 8:00');
+insert into bus_details values (63495256, 'Orange tours and travels', 3, 17, '3-17-3', 3, 'WB 01 KA 1111', '19:00 to 9:00');
+insert into bus_details values (95332486, 'Orange tours and travels', 18, 17, '18-17-18', 18, 'DH 01 UY 9966', '21:00 to 7:00');
+insert into bus_details values (85200148, 'Orange tours and travels', 16, 15, '16-14-15-14-16', 16, 'GJ 01 MK 4554', '22:00 to 8:00');
+insert into bus_details values (35789651, 'Orange tours and travels', 20, 18, '20-18-20', 20, 'UP 14 PR 2345', '20:00 to 7:00');
+insert into bus_details values (41771455, 'Orange tours and travels', 2, 5, '2-4-5', 2, 'AP 10 SV 9515', '19:00 to 8:00');
+insert into bus_details values (26984522, 'Orange tours and travels', 3, 8, '3-2-8-2-3', 3, 'AP 16 WE 2580', '19:00 to 7:00');
+insert into bus_details values (55449630, 'Orange tours and travels', 4, 11, '4-10-11-10-4', 4, 'KL 1 AB 7530', '20:00 to 9:00');
+insert into bus_details values (32145666, 'Orange tours and travels', 11, 5, '11-10-5-10-11', 11, 'KA 2 JH 8778', '21:00 to 7:00');
+insert into bus_details values (47963356, 'Orange tours and travels', 13, 1, '13-7-1-7-13', 13, 'GA 1 MK 2222', '20:00 to 8:00');
+insert into bus_details values (74123698, 'Orange tours and travels', 17, 20, '17-20-17', 17, 'WB 1 LS 3333', '20:00 to 9:00');
+insert into bus_details values (25885211, 'Orange tours and travels', 16, 18, '16-18-16', 16, 'GJ 3 TY 4444', '21:00 to 7:00');
+insert into bus_details values (15987551, 'Orange tours and travels', 7, 11, '7-6-11-6-7', 7, 'KA 6 WQ 8888', '21:00 to 9:00');
